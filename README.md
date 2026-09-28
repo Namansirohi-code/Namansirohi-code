@@ -1,33 +1,30 @@
-# Naman Sirohi — Data Analyst Portfolio
+# Naman Sirohi — Creative Data Analyst Portfolio
 
-A responsive, dark navy/black portfolio website built with plain HTML, CSS, and JavaScript. It is ready to publish with GitHub Pages.
+A responsive, dark navy portfolio with a creative developer aesthetic, CSS 3D effects, animated particle network, scroll reveals, and interactive tilt on the hero analytics panel. It uses plain HTML, CSS, and JavaScript and requires no build tools.
 
-## Preview locally
-1. Download or clone this folder.
-2. Open `index.html` in a browser.
+## Files
+- `index.html` — portfolio content and sections
+- `style.css` — responsive styling, 3D-inspired motion, and reduced-motion support
+- `script.js` — mobile navigation, profile links, scroll reveals, pointer tilt, and particle animation
 
 ## Publish with GitHub Pages
-1. Create a GitHub repository named `YOUR-USERNAME.github.io` (or any repository name if you plan to use a project URL).
-2. Upload `index.html`, `style.css`, `script.js`, and `README.md` to the repository root.
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)`, then click **Save**.
-6. Wait for GitHub Pages to publish the website.
+1. Upload all three files to the root of your public GitHub repository.
+2. Open **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select branch `main` and folder `/(root)`, then click **Save**.
+5. Wait for the Pages deployment to complete.
 
-## Before publishing — personalisation checklist
-- [x] LinkedIn profile URL added in `script.js` and the contact section.
-- [x] GitHub profile URL added in `script.js` and the contact section.
-- [x] Amazon Tableau dashboard link added to its project card.
-- [x] LinkedIn Hiring Tableau dashboard link added to its project card.
-- [ ] Confirm that each project description and metric matches the work you actually completed.
-- [x] Confirmed: Amazon project analysed **over 5 million customer orders**.
-- [x] Confirmed: LinkedIn project analysed **over 100,000 recruitment data points**.
-- [ ] Confirm the resume-reported figures: 10,000+ IoT records, 50 dashboards, 300+ sites, and 200+ proposals.
-- [ ] If you want, add a public resume PDF link/button.
-- [ ] Review contact details before making the site public.
+## Portfolio links
+- LinkedIn: https://www.linkedin.com/in/namansirohi
+- GitHub: https://github.com/Namansirohi-code
+- Amazon Tableau dashboard: https://public.tableau.com/app/profile/naman.sirohi/viz/NL_AmazonbyNamansirohi/Dashboard1
+- LinkedIn Hiring Tableau dashboard: https://public.tableau.com/app/profile/naman.sirohi/viz/GraduationProjectbynamansirohi/Dashboard1?publish=yes
+- Instagram Tableau dashboard: https://public.tableau.com/app/profile/naman.sirohi/viz/NL_Instagram_17701087754050/Dashboard1?publish=yes
 
 ## Content notes
-- Resume-derived experience, education, and certifications are based on the supplied resume.
-- The Instagram Tableau link was included from project details previously shared. Check that it is public and points to the intended dashboard.
-- No unverified performance improvements or business impact percentages have been invented.
-- The website uses Google Fonts from a CDN; if you want fully offline hosting, replace these with local font files or remove the font imports.
+Resume-based experience highlights include 10,000+ IoT sensor records, 50 KPI dashboards, CPCB/SPCB connectivity across 300+ industrial monitoring sites, and 200+ technical proposals/quotations. The Amazon project description reports 5M+ customer orders; the LinkedIn Hiring project reports 100K+ recruitment data points. These figures were confirmed by the portfolio owner.
+
+The Instagram project is retained as requested and uses the supplied Tableau dashboard URL.
+
+## Accessibility and performance
+The particle animation is lightweight and uses Canvas without third-party JavaScript libraries. Animations are reduced when the visitor enables `prefers-reduced-motion`; the layout adapts for mobile screens.
