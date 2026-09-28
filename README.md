@@ -1,30 +1,31 @@
-# Naman Sirohi — Creative Data Analyst Portfolio
+# Naman Sirohi — Data Analyst Portfolio
 
-A responsive, dark navy portfolio with a creative developer aesthetic, CSS 3D effects, animated particle network, scroll reveals, and interactive tilt on the hero analytics panel. It uses plain HTML, CSS, and JavaScript and requires no build tools.
+A light, minimalist portfolio for GitHub Pages with a CSS 3D analytics cube, subtle floating objects, scroll-reveal sections, interactive project cards, responsive navigation, and resume download buttons.
 
 ## Files
-- `index.html` — portfolio content and sections
-- `style.css` — responsive styling, 3D-inspired motion, and reduced-motion support
-- `script.js` — mobile navigation, profile links, scroll reveals, pointer tilt, and particle animation
+- `index.html` — portfolio content
+- `style.css` — layout, theme, 3D CSS and responsive styling
+- `script.js` — scroll reveal, progress bar, mobile menu and pointer-reactive cube
+- `Naman-Sirohi-Resume.pdf` — resume PDF
 
-## Publish with GitHub Pages
-1. Upload all three files to the root of your public GitHub repository.
-2. Open **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select branch `main` and folder `/(root)`, then click **Save**.
-5. Wait for the Pages deployment to complete.
+## Publish on GitHub Pages
+1. Open `https://github.com/Namansirohi-code/Namansirohi-code`.
+2. Choose **Add file → Upload files**.
+3. Extract this ZIP on your computer, then upload the files inside the folder (not the ZIP itself).
+4. If GitHub says files already exist, upload/replace the same named files so the new `index.html`, `style.css`, `script.js`, and resume are committed.
+5. Commit the changes to the `main` branch.
+6. Open **Settings → Pages**. Set source to **Deploy from a branch**, choose `main` and `/(root)`, then click **Save**.
+7. Wait for deployment, then open `https://namansirohi-code.github.io/Namansirohi-code/`. Refresh after a minute if the previous version is cached.
 
-## Portfolio links
+## Verified profile and project links
 - LinkedIn: https://www.linkedin.com/in/namansirohi
 - GitHub: https://github.com/Namansirohi-code
-- Amazon Tableau dashboard: https://public.tableau.com/app/profile/naman.sirohi/viz/NL_AmazonbyNamansirohi/Dashboard1
-- LinkedIn Hiring Tableau dashboard: https://public.tableau.com/app/profile/naman.sirohi/viz/GraduationProjectbynamansirohi/Dashboard1?publish=yes
-- Instagram Tableau dashboard: https://public.tableau.com/app/profile/naman.sirohi/viz/NL_Instagram_17701087754050/Dashboard1?publish=yes
+- Amazon Tableau: https://public.tableau.com/app/profile/naman.sirohi/viz/NL_AmazonbyNamansirohi/Dashboard1
+- LinkedIn Hiring Tableau: https://public.tableau.com/app/profile/naman.sirohi/viz/GraduationProjectbynamansirohi/Dashboard1?publish=yes
 
-## Content notes
-Resume-based experience highlights include 10,000+ IoT sensor records, 50 KPI dashboards, CPCB/SPCB connectivity across 300+ industrial monitoring sites, and 200+ technical proposals/quotations. The Amazon project description reports 5M+ customer orders; the LinkedIn Hiring project reports 100K+ recruitment data points. These figures were confirmed by the portfolio owner.
+The 5M+ Amazon orders and 100K+ LinkedIn recruitment records metrics were confirmed by Naman. Instagram project details are included, but its dashboard link is left unlinked until provided.
 
-The Instagram project is retained as requested and uses the supplied Tableau dashboard URL.
-
-## Accessibility and performance
-The particle animation is lightweight and uses Canvas without third-party JavaScript libraries. Animations are reduced when the visitor enables `prefers-reduced-motion`; the layout adapts for mobile screens.
+## Notes
+- The 3D cube and orb are CSS-based, so no external 3D library is required.
+- Google Fonts are loaded online; system fallback fonts are included.
+- Resume download works when `Naman-Sirohi-Resume.pdf` remains in the same root folder as `index.html`.
